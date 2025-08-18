@@ -1,0 +1,159 @@
+{
+  "site_info": {
+    "url": "https://hbd.rainago.com/",
+    "title": "HBD Vegas - Joyeux Anniversaire Lontchi !",
+    "description": "Site d'anniversaire personnalisé"
+  },
+  "typography": {
+    "primary_font": {
+      "family": "",
+      "fallback": "Arial, sans-serif",
+      "source": "Google Fonts/Local/CDN",
+      "weights": ["300", "400", "600", "700"]
+    },
+    "secondary_font": {
+      "family": "",
+      "fallback": "serif",
+      "source": "",
+      "weights": ["400", "600"]
+    },
+    "font_sizes": {
+      "h1": "2.5rem",
+      "h2": "2rem", 
+      "h3": "1.5rem",
+      "body": "1rem",
+      "small": "0.875rem"
+    },
+    "line_heights": {
+      "headings": "1.2",
+      "body": "1.6"
+    }
+  },
+  "colors": {
+    "primary": {
+      "main": "#000000",
+      "light": "#333333",
+      "dark": "#000000"
+    },
+    "secondary": {
+      "main": "#ffffff",
+      "light": "#f8f8f8",
+      "dark": "#e0e0e0"
+    },
+    "accent": {
+      "main": "#ff6b6b",
+      "light": "#ff9999",
+      "dark": "#cc5555"
+    },
+    "text": {
+      "primary": "#333333",
+      "secondary": "#666666",
+      "light": "#999999"
+    },
+    "background": {
+      "main": "#ffffff",
+      "secondary": "#f8f9fa"
+    }
+  },
+  "layout": {
+    "container_width": "1200px",
+    "breakpoints": {
+      "mobile": "768px",
+      "tablet": "1024px",
+      "desktop": "1200px"
+    },
+    "spacing": {
+      "xs": "0.25rem",
+      "sm": "0.5rem", 
+      "md": "1rem",
+      "lg": "1.5rem",
+      "xl": "3rem"
+    }
+  },
+  "animations": {
+    "entrance": {
+      "type": "fadeInUp",
+      "duration": "0.8s",
+      "easing": "ease-out",
+      "delay": "0.2s"
+    },
+    "hover_effects": {
+      "buttons": {
+        "transition": "all 0.3s ease",
+        "transform": "translateY(-2px)",
+        "box_shadow": "0 4px 12px rgba(0,0,0,0.15)"
+      },
+      "cards": {
+        "transition": "transform 0.3s ease",
+        "transform": "scale(1.05)"
+      }
+    },
+    "loading": {
+      "type": "pulse",
+      "duration": "2s",
+      "iteration": "infinite"
+    },
+    "scroll_animations": [
+      {
+        "trigger": ".fade-in",
+        "animation": "fadeIn",
+        "duration": "1s"
+      }
+    ]
+  },
+  "components": {
+    "buttons": {
+      "primary": {
+        "background": "#ff6b6b",
+        "color": "#ffffff",
+        "border_radius": "8px",
+        "padding": "12px 24px",
+        "font_weight": "600",
+        "transition": "all 0.3s ease"
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "#ff6b6b",
+        "border": "2px solid #ff6b6b",
+        "border_radius": "8px",
+        "padding": "10px 22px"
+      }
+    },
+    "cards": {
+      "background": "#ffffff",
+      "border_radius": "12px",
+      "box_shadow": "0 2px 10px rgba(0,0,0,0.1)",
+      "padding": "24px"
+    },
+    "navigation": {
+      "background": "#ffffff",
+      "height": "70px",
+      "box_shadow": "0 2px 4px rgba(0,0,0,0.1)"
+    }
+  },
+  "effects": {
+    "particles": {
+      "enabled": false,
+      "type": "confetti",
+      "colors": ["#ff6b6b", "#4ecdc4", "#45b7d1"]
+    },
+    "parallax": {
+      "enabled": false,
+      "elements": []
+    },
+    "background_animation": {
+      "enabled": false,
+      "type": "gradient_shift"
+    }
+  },
+  "responsive": {
+    "mobile": {
+      "font_scale": "0.9",
+      "spacing_scale": "0.8"
+    },
+    "tablet": {
+      "font_scale": "0.95",
+      "spacing_scale": "0.9"
+    }
+  }
+}
